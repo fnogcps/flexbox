@@ -14,7 +14,11 @@
     justify-content: flex-start;
     /* flex-end | center | space-between | space-around */
 
-    align-items: flex-start;
+    align-items: stretch;
+    /* flex-start | flex-end | center | baseline */
+
+    align-content: stretch;
+    /* flex-start | flex-end | center | space-between | space-around */
 }
 
 .item {
@@ -22,5 +26,6 @@
     color: #fff;
     padding: 20px;
     margin: 5px;
-    width: 80px;
+    width: 200px;
+    /* height: 50px; */
 }
