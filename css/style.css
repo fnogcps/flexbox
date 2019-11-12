@@ -2,7 +2,12 @@
     background-color: #ccc;
     height: 200px;
     display: flex;
-    flex-direction: column;
+    
+    flex-direction: row;
+    /* column | reverse-column | reverse-row */
+
+    flex-wrap: wrap;
+    /* wrap | wrap-reverse */
 }
 
 .item {
@@ -10,4 +15,5 @@
     color: #fff;
     padding: 20px;
     margin: 5px;
+    width: 50%;
 }
