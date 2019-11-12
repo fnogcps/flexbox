@@ -3,11 +3,16 @@
     height: 200px;
     display: flex;
     
-    flex-direction: row;
-    /* column | reverse-column | reverse-row */
+    /*  flex-direction: row;
+    column | reverse-column | reverse-row */
 
-    flex-wrap: wrap;
-    /* wrap | wrap-reverse */
+    /* flex-wrap: wrap;
+     wrap | wrap-reverse */
+
+    flex-flow: row wrap;
+
+    justify-content: flex-start;
+    /* flex-end | center | space-between | space-around */
 }
 
 .item {
