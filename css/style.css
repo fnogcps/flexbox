@@ -21,7 +21,6 @@ a:hover { opacity: 1; }
 /* HEADER */
 
 header {
-    background-color: red;
     width: 100%;
     position: absolute;
     top: 0;
@@ -37,4 +36,9 @@ header nav { display: flex; }
 header li a { color: #191c03; }
 header li { margin: 0 15px; }
 header li:first-child { margin-left: 0; }
-header li:last-child { margin-right: : 0; }
+header li:last-child { margin-right: 0; }
+
+@media (max-width: 700px) {
+    header { flex-direction: column; }
+    header img { margin-bottom: 15px; }
+}
