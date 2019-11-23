@@ -244,4 +244,10 @@ header li:last-child { margin-right: 0; }
     cursor: pointer;
 }
 
+@media (max-width: 850px) {
+    .newsletter input {
+        flex-basis: 100%;
+        margin-bottom: 15px;
+    }
+}
 
